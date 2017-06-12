@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Drive</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Login -->
+    <string name="login_name">Login</string>
+    <string name="password_name">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="wrong_credentials">Login or password incorrect</string>
+    <string name="login_error">Couln\'t log in</string>
+    <string name="login_empty_fields">You need to enter your login and password</string>
+
+
+    <!-- Register -->
+    <string name="location">Location</string>
+    <string name="email">E-mail</string>
+    <string name="register_empty_fields">You need to provide all information</string>
+    <string name="register_error">Couldn\'t create account</string>
+
+    <!-- Login -->
+    <string name="location_permissions_deny">You need to accept location permissions to use map</string>
+
+</resources>

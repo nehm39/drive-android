@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Drive</string>
+    <string name="general_error_with_retry">Wystąpił błąd. Spróbuj ponownie</string>
+    <string name="no_internet">Brak połaczenia z internetem</string>
+    <string name="loading">Wczytywanie…</string>
+    <string name="app_back">Naciśnij jeszcze raz aby wyjść</string>
+    <string name="search">Szukaj</string>
+
+    <!-- News -->
+    <string name="no_news">Brak aktualności</string>
+    <string name="events_nearby_news">W najbliższym czasie, w Twojej okolicy odbywa się wydarzenie:</string>
+    <string name="users_nearby_news">W Twojej okolicy znajduje się użytkownik:</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Otwórz pasek nawigacji</string>
+    <string name="navigation_drawer_close">Zamknij pasek nawigacji</string>
+    <string name="drawer_option_newsfeed">Aktualności</string>
+    <string name="drawer_option_map">Mapa</string>
+    <string name="drawer_option_events">Wydarzenia</string>
+    <string name="drawer_option_users">Użytkownicy</string>
+    <string name="drawer_option_profile">Profil</string>
+    <string name="drawer_option_settings">Ustawienia</string>
+    <string name="drawer_option_logout">Wyloguj</string>
+
+    <!-- Login -->
+    <string name="login_name">Login</string>
+    <string name="password_name">Hasło</string>
+    <string name="log_in">Zaloguj</string>
+    <string name="register">Zarejestruj</string>
+    <string name="wrong_credentials">Dane do logowania są niepoprawne</string>
+    <string name="login_error">Wystąpił bład</string>
+    <string name="login_empty_fields">Musisz podać login i hasło</string>
+    <string name="logging_in">Trwa logowanie…</string>
+
+    <!-- Register -->
+    <string name="location">Miejscowość</string>
+    <string name="email">E-mail</string>
+    <string name="vehicle_make">Marka pojazdu</string>
+    <string name="vehicle_model">Model pojazdu</string>
+    <string name="register_empty_fields">Musisz wprowadzić wszystkie pola</string>
+    <string name="register_error">Wystąpił bład</string>
+
+    <!-- Map -->
+    <string name="location_permissions_deny">Musisz zaakceptować uprawnienia lokalizacji, aby korzystać z mapy</string>
+    <string name="map_points_loading_error">Nie udało się pobrać danych</string>
+
+    <!-- Profile -->
+    <string name="profile_user_mail">E-mail</string>
+    <string name="profile_user_place">Miejscowość</string>
+    <string name="profile_user_password">Hasło</string>
+    <string name="profile_save">Aktualizuj</string>
+    <string name="profile_get_error">Wystąpił błąd. Spróbuj ponownie</string>
+    <string name="profile_update_error">Wystąpił błąd. Spróbuj ponownie</string>
+
+    <!-- Settings -->
+    <string name="settings_category_general">Ogólne</string>
+    <string name="settings_category_map">Mapa</string>
+    <string name="settings_share_location">Udostępniaj lokalizację</string>
+    <string name="settings_show_on_map">Pokazywane punkty</string>
+    <string name="settings_show_on_map_summ">Punkty, które mają być widoczne na mapie</string>
+    <string name="settings_show_on_map_dialog">Wybierz</string>
+    <string name="settings_map_range">Odległość użytkowników</string>
+    <string name="settings_map_range_summ">Odległość, dla której pokazywani są użytkownicy</string>
+    <string name="settings_map_range_dialog">Wybierz</string>
+    <string name="settings_map_events_range">Odległość wydarzeń</string>
+    <string name="settings_map_events_range_summ">Odległość, dla której pokazywane są wydarzenia</string>
+    <string name="settings_map_events_range_dialog">Wybierz</string>
+    <string name="settings_day_events_range">Pokazywane wydarzenia</string>
+    <string name="settings_day_events_range_summ">Liczba dni, dla których pokazywane są wydarzenia</string>
+    <string name="settings_day_events_range_dialog">Wybierz</string>
+    <string-array name="settings_show_on_map_array">
+        <item>Wszystko</item>
+        <item>Tylko wydarzenia</item>
+        <item>Tylko użytkownicy</item>
+    </string-array>
+    <string-array name="settings_show_on_map_array_values">
+        <item>all</item>
+        <item>events</item>
+        <item>users</item>
+    </string-array>
+    <string-array name="settings_map_range_array">
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>30 km</item>
+        <item>40 km</item>
+        <item>50 km</item>
+    </string-array>
+    <string-array name="settings_map_range_array_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="settings_map_events_range_array">
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>30 km</item>
+        <item>40 km</item>
+        <item>50 km</item>
+        <item>100 km</item>
+        <item>250 km</item>
+        <item>500 km</item>
+    </string-array>
+    <string-array name="settings_map_events_range_array_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="settings_day_events_range_array">
+        <item>1 dzień</item>
+        <item>3 dni</item>
+        <item>7 dni</item>
+        <item>14 dni</item>
+        <item>30 dni</item>
+        <item>60 dni</item>
+    </string-array>
+    <string-array name="settings_day_events_range_array_values">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="settingsGeneralCategory"
+        android:title="@string/settings_category_general" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settingsAutomaticUpdate"
+            android:title="@string/settings_share_location" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="settingsMapCategory"
+        android:title="@string/settings_category_map" >
+        <ListPreference
+            android:key="settingsShowOnMap"
+            android:title="@string/settings_show_on_map"
+            android:summary="@string/settings_show_on_map_summ"
+            android:dialogTitle="@string/settings_show_on_map_dialog"
+            android:entries="@array/settings_show_on_map_array"
+            android:entryValues="@array/settings_show_on_map_array_values"
+            android:defaultValue="all" />
+        <ListPreference
+            android:key="settingsMapRange"
+            android:title="@string/settings_map_range"
+            android:summary="@string/settings_map_range_summ"
+            android:dialogTitle="@string/settings_map_range_dialog"
+            android:entries="@array/settings_map_range_array"
+            android:entryValues="@array/settings_map_range_array_values"
+            android:defaultValue="20" />
+        <ListPreference
+            android:key="settingsMapEventsRange"
+            android:title="@string/settings_map_events_range"
+            android:dialogTitle="@string/settings_map_events_range_dialog"
+            android:summary="@string/settings_map_events_range_summ"
+            android:entries="@array/settings_map_events_range_array"
+            android:entryValues="@array/settings_map_events_range_array_values"
+            android:defaultValue="20" />
+        <ListPreference
+            android:key="settingsDayEventsRange"
+            android:title="@string/settings_day_events_range"
+            android:summary="@string/settings_day_events_range_summ"
+            android:dialogTitle="@string/settings_day_events_range_dialog"
+            android:entries="@array/settings_day_events_range_array"
+            android:entryValues="@array/settings_day_events_range_array_values"
+            android:defaultValue="7" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

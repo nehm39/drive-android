@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/users_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <view
+            android:id="@+id/users_recycler_view"
+            class="android.support.v7.widget.RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp" />
+    </RelativeLayout>
+</FrameLayout>
